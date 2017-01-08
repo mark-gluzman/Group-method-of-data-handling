@@ -233,7 +233,7 @@ t=[1 2 3 4 5];
 
 axes(handles.axes2);
 plot(t,rss,'b-',t,cp,'r-',t,fpe,'g-');
-title('Plot of RSS, Cp, FPE');
+title('criterion-complexity');
 legend('RSS','Cp','FPE');
 grid on;
 
