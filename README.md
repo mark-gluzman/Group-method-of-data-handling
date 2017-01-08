@@ -13,7 +13,7 @@ Goal: to investigate patterns of selection of optimal models for various criteri
     The number of fixed regressors: m = 5;  
     Vector set of true parameters: teta0 = [3 1 -2 0 0], that is true (no noise) model (accurate signal) y0 = 3x1-2x2 + x3, therefore inputs x4 and x5 are redundant, but they take part in the modeling.  
     Model y = Xteta0 + ksi   
-    Q1*,...,Q5* are the result of the RLS  
+       Q1*,...,Q5* are the result of the RLS  
  4) Use three different criteria:  
     1. RSS (s) (the residual sum of squares)  
     2. Cp (s) = RSS (s) + 2s (Mallows's Cp)   
