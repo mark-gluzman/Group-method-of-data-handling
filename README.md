@@ -12,7 +12,7 @@ Goal: to investigate patterns of selection of optimal models for various criteri
     Noise vector ksi (nx1) (normally distributed N(0,sigma^2)).  
     The number of fixed regressors: m = 5;  
     Vector set of true parameters: teta0 = [3 1 -2 0 0], that is true (no noise) model (accurate signal) y0 = 3x1-2x2 + x3, therefore inputs x4 and x5 are redundant, but they take part in the modeling.  
-    Model y = Xteta0 + ksi
+    Model y = Xteta0 + ksi  
     Q1*,...,Q5* are the result of the RLS  
  4) Use three different criteria:  
     1. RSS (s) (the residual sum of squares)  
